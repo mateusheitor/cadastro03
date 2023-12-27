@@ -14,7 +14,7 @@ public class Usuario {
 	private Integer id;
 
 	@Column
-	private String email;
+	private String user;
 
 	@Column
 	private String senha;
@@ -27,12 +27,12 @@ public class Usuario {
 		this.id = id;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getUser() {
+		return user;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setUser(String user) {
+		this.user = user;
 	}
 
 	public String getSenha() {
@@ -43,4 +43,5 @@ public class Usuario {
 		this.senha = senha;
 	}
 
+	
 }
